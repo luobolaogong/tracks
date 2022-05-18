@@ -21,7 +21,7 @@ void main(List<String> arguments) {
   final ticksPerBeat = 10080;
   final microsecondsPerMinute = 60000000;
 
-  print('Staring ppl ...');
+  print('Staring tracks ...');
   Logger.root.level = Level.ALL; // get this from the command line, as a secret setting
   Logger.root.onRecord.listen((record) {
     print('$record'); // wow!!!  I can change how it prints!
